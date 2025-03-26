@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+}
+
+#carousel {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.horse-card {
+    width: 200px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+}
+
+.horse-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
